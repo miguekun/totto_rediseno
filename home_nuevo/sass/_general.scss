@@ -1,0 +1,293 @@
+/*------------------- GENERALES */
+
+body, body *{
+	margin: 0;
+	padding: 0;
+	-webkit-box-sizing: boder-box;
+	-moz-box-sizing: boder-box;
+	box-sizing: border-box;
+	list-style: none;
+}
+
+a{
+	text-decoration: none;
+	color: #000;
+}
+
+/*------------------- FIN GENERALES */
+
+
+/*------------------- ESTILOS NUEVO HOME TOTTO */
+
+.wrapper{
+	width: 990px;
+	margin: 0 auto;
+	height: auto;
+	position: relative;
+	padding: 0px 10px;
+}
+
+.infoBasica{
+	width: 100%;
+	height: auto;
+	background: #eee;
+	float: left;
+
+	.w_infoBasica{
+		font-family: 'arial';
+		font-size: 12px;
+		padding: 0px 10px;
+
+		ul{
+			float: left;
+			position: relative;
+			margin-right: 0px;
+
+			&.canales_com{
+				float: right;
+
+				li{
+					float: left;
+					border-right: 1px solid #ddd;
+					margin-right: 0px;
+
+					span{
+						margin-right: 0px;
+					}
+				}
+			}
+
+			&.telefono{
+				text-transform: uppercase;
+			}
+
+			li{
+				float: left;
+				margin-right: 10px;
+				padding: 13px 10px;
+
+				span{
+					float: left;
+					margin-right: 10px;
+
+					&.bold{
+						font-weight: bold;
+					}
+				}
+			}
+		}
+	}
+}
+
+.encabezadoPrincipal{
+	width: 100%;
+	float: left;
+	positon: relative;
+	height: 100px;
+	background: #ddd;
+
+	.w_encabezadoPrincipal{
+		font-family: 'arial';
+		font-size: 12px;
+		text-transform: uppercase;
+
+		h1{
+			float: left;
+			width: 190px;
+			height: 100px;
+			background: url(../images/logo_totto.png) center no-repeat;
+		}
+
+		ul{
+			float: left;
+			width: 780px;
+			height: 100px;
+			background: #ccc;
+			padding: 15px 0px;
+
+			li{
+				float: left;
+				padding: 20px 10px 20px 40px;
+				width: 20%;
+				text-align: center;
+				position: relative;
+
+				&:nth-child(1){
+					.logo_menu{
+						left: 30px;
+					}
+				}
+
+				&:nth-child(2){
+					.logo_menu{
+						left: 18px;
+					}
+				}
+
+				&:nth-child(3){
+					.logo_menu{
+						left: 20px;
+					}
+				}
+
+				&:nth-child(4){
+					.logo_menu{
+						left: 10px;
+					}
+				}
+
+				&:nth-child(5){
+					.logo_menu{
+						left: 4px;
+					}
+				}
+
+				.logo_menu{
+					width: 28px;
+					height: 28px;
+					position: absolute;
+					top: 20px;
+					background: #000;
+				}
+			}
+		}
+	}
+}
+
+.menuContenedor{
+	width: 100%;
+	float: left;
+	position: relative;
+	font-family: 'arial';
+	font-size: 12px;
+	background: #000;
+
+	.menuPrincipal{
+		width: 990px;
+
+		ul{
+			float: left;
+
+			li{
+				padding: 10px 0px;
+				color: #fff;
+				float: left;
+				text-transform: uppercase;
+				-webkit-transition: color 0.5s;
+				transition: color 0.5s;
+				-webkit-transition: background 0.5s;
+				transition: background 0.5s;
+
+				&:hover{
+
+					a{
+						color: #000;
+					}
+					background: #fff;
+					cursor: pointer;
+				}
+
+				&:last-child{
+					a{
+						border-right: none;
+					}
+				}
+
+				a{
+					width: 100%;
+					color: #fff;
+					float: left;
+					padding: 5px 25px;
+					border-right: 1px solid #FFCD00;
+				}
+			}
+		}
+	}
+
+	.buscador{
+		float: left;
+		background: #fff;
+		width: 125px;
+		padding: 5px;
+		margin-top: 10px;
+		margin-left: 20px;
+		border-radius: 5px;
+		color: #9D9D9E;
+		-webkit-transition: background 0.5s;
+		transition: background 0.5s;
+
+		&:hover{
+			cursor: pointer;
+			background: #FFCD00;
+		}
+	}
+
+	.carrito{
+		width: 30px;
+		float: left;
+		margin-left: 30px;
+		height: 44px;
+		background: url(../images/cart.png) center no-repeat;
+
+		&:hover{
+			cursor: pointer;
+		}
+	}
+}
+
+.subMenuDespliegue{
+	width: 100%;
+	float: left;
+	position: relative;
+
+	.submenu{
+		width: 100%;
+		height: 285px;
+		float: left;
+		background: #bbb;
+		padding: 15px;
+		font-family: 'arial';
+		font-size: 14px;
+		color: #7F7F7F;
+		display: none;
+
+		&.ropa{
+			display: block;
+		}
+
+		ul{
+			width: 40%;
+			float: left;
+			position: relative;
+		}
+
+		h3{
+			text-transform: uppercase;
+			color: #000;
+			font-size: 18px;
+			margin-bottom: 10px;
+		}
+	}
+}
+
+/*------------------- FIN ESTILOS NUEVO HOME TOTTO */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,264 @@
+/*------------------- GENERALES */
+/* line 3, ../sass/_general.scss */
+body, body * {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: boder-box;
+  -moz-box-sizing: boder-box;
+  box-sizing: border-box;
+  list-style: none;
+}
+
+/* line 12, ../sass/_general.scss */
+a {
+  text-decoration: none;
+  color: #000;
+}
+
+/*------------------- FIN GENERALES */
+/*------------------- ESTILOS NUEVO HOME TOTTO */
+/* line 22, ../sass/_general.scss */
+.wrapper {
+  width: 990px;
+  margin: 0 auto;
+  height: auto;
+  position: relative;
+  padding: 0px 10px;
+}
+
+/* line 30, ../sass/_general.scss */
+.infoBasica {
+  width: 100%;
+  height: auto;
+  background: #eee;
+  float: left;
+}
+/* line 36, ../sass/_general.scss */
+.infoBasica .w_infoBasica {
+  font-family: 'arial';
+  font-size: 12px;
+  padding: 0px 10px;
+}
+/* line 41, ../sass/_general.scss */
+.infoBasica .w_infoBasica ul {
+  float: left;
+  position: relative;
+  margin-right: 0px;
+}
+/* line 46, ../sass/_general.scss */
+.infoBasica .w_infoBasica ul.canales_com {
+  float: right;
+}
+/* line 49, ../sass/_general.scss */
+.infoBasica .w_infoBasica ul.canales_com li {
+  float: left;
+  border-right: 1px solid #ddd;
+  margin-right: 0px;
+}
+/* line 54, ../sass/_general.scss */
+.infoBasica .w_infoBasica ul.canales_com li span {
+  margin-right: 0px;
+}
+/* line 60, ../sass/_general.scss */
+.infoBasica .w_infoBasica ul.telefono {
+  text-transform: uppercase;
+}
+/* line 64, ../sass/_general.scss */
+.infoBasica .w_infoBasica ul li {
+  float: left;
+  margin-right: 10px;
+  padding: 13px 10px;
+}
+/* line 69, ../sass/_general.scss */
+.infoBasica .w_infoBasica ul li span {
+  float: left;
+  margin-right: 10px;
+}
+/* line 73, ../sass/_general.scss */
+.infoBasica .w_infoBasica ul li span.bold {
+  font-weight: bold;
+}
+
+/* line 82, ../sass/_general.scss */
+.encabezadoPrincipal {
+  width: 100%;
+  float: left;
+  positon: relative;
+  height: 100px;
+  background: #ddd;
+}
+/* line 89, ../sass/_general.scss */
+.encabezadoPrincipal .w_encabezadoPrincipal {
+  font-family: 'arial';
+  font-size: 12px;
+  text-transform: uppercase;
+}
+/* line 94, ../sass/_general.scss */
+.encabezadoPrincipal .w_encabezadoPrincipal h1 {
+  float: left;
+  width: 190px;
+  height: 100px;
+  background: url(../images/logo_totto.png) center no-repeat;
+}
+/* line 101, ../sass/_general.scss */
+.encabezadoPrincipal .w_encabezadoPrincipal ul {
+  float: left;
+  width: 780px;
+  height: 100px;
+  background: #ccc;
+  padding: 15px 0px;
+}
+/* line 108, ../sass/_general.scss */
+.encabezadoPrincipal .w_encabezadoPrincipal ul li {
+  float: left;
+  padding: 20px 10px 20px 40px;
+  width: 20%;
+  text-align: center;
+  position: relative;
+}
+/* line 116, ../sass/_general.scss */
+.encabezadoPrincipal .w_encabezadoPrincipal ul li:nth-child(1) .logo_menu {
+  left: 30px;
+}
+/* line 122, ../sass/_general.scss */
+.encabezadoPrincipal .w_encabezadoPrincipal ul li:nth-child(2) .logo_menu {
+  left: 18px;
+}
+/* line 128, ../sass/_general.scss */
+.encabezadoPrincipal .w_encabezadoPrincipal ul li:nth-child(3) .logo_menu {
+  left: 20px;
+}
+/* line 134, ../sass/_general.scss */
+.encabezadoPrincipal .w_encabezadoPrincipal ul li:nth-child(4) .logo_menu {
+  left: 10px;
+}
+/* line 140, ../sass/_general.scss */
+.encabezadoPrincipal .w_encabezadoPrincipal ul li:nth-child(5) .logo_menu {
+  left: 4px;
+}
+/* line 145, ../sass/_general.scss */
+.encabezadoPrincipal .w_encabezadoPrincipal ul li .logo_menu {
+  width: 28px;
+  height: 28px;
+  position: absolute;
+  top: 20px;
+  background: #000;
+}
+
+/* line 157, ../sass/_general.scss */
+.menuContenedor {
+  width: 100%;
+  float: left;
+  position: relative;
+  font-family: 'arial';
+  font-size: 12px;
+  background: #000;
+}
+/* line 165, ../sass/_general.scss */
+.menuContenedor .menuPrincipal {
+  width: 990px;
+}
+/* line 168, ../sass/_general.scss */
+.menuContenedor .menuPrincipal ul {
+  float: left;
+}
+/* line 171, ../sass/_general.scss */
+.menuContenedor .menuPrincipal ul li {
+  padding: 10px 0px;
+  color: #fff;
+  float: left;
+  text-transform: uppercase;
+  -webkit-transition: color 0.5s;
+  transition: color 0.5s;
+  -webkit-transition: background 0.5s;
+  transition: background 0.5s;
+}
+/* line 181, ../sass/_general.scss */
+.menuContenedor .menuPrincipal ul li:hover {
+  background: #fff;
+  cursor: pointer;
+}
+/* line 183, ../sass/_general.scss */
+.menuContenedor .menuPrincipal ul li:hover a {
+  color: #000;
+}
+/* line 191, ../sass/_general.scss */
+.menuContenedor .menuPrincipal ul li:last-child a {
+  border-right: none;
+}
+/* line 196, ../sass/_general.scss */
+.menuContenedor .menuPrincipal ul li a {
+  width: 100%;
+  color: #fff;
+  float: left;
+  padding: 5px 25px;
+  border-right: 1px solid #FFCD00;
+}
+/* line 207, ../sass/_general.scss */
+.menuContenedor .buscador {
+  float: left;
+  background: #fff;
+  width: 125px;
+  padding: 5px;
+  margin-top: 10px;
+  margin-left: 20px;
+  border-radius: 5px;
+  color: #9D9D9E;
+  -webkit-transition: background 0.5s;
+  transition: background 0.5s;
+}
+/* line 219, ../sass/_general.scss */
+.menuContenedor .buscador:hover {
+  cursor: pointer;
+  background: #FFCD00;
+}
+/* line 225, ../sass/_general.scss */
+.menuContenedor .carrito {
+  width: 30px;
+  float: left;
+  margin-left: 30px;
+  height: 44px;
+  background: url(../images/cart.png) center no-repeat;
+}
+/* line 232, ../sass/_general.scss */
+.menuContenedor .carrito:hover {
+  cursor: pointer;
+}
+
+/* line 238, ../sass/_general.scss */
+.subMenuDespliegue {
+  width: 100%;
+  float: left;
+  position: relative;
+}
+/* line 243, ../sass/_general.scss */
+.subMenuDespliegue .submenu {
+  width: 100%;
+  height: 285px;
+  float: left;
+  background: #bbb;
+  padding: 15px;
+  font-family: 'arial';
+  font-size: 14px;
+  color: #7F7F7F;
+  display: none;
+}
+/* line 254, ../sass/_general.scss */
+.subMenuDespliegue .submenu.ropa {
+  display: block;
+}
+/* line 258, ../sass/_general.scss */
+.subMenuDespliegue .submenu ul {
+  width: 40%;
+  float: left;
+  position: relative;
+}
+/* line 264, ../sass/_general.scss */
+.subMenuDespliegue .submenu h3 {
+  text-transform: uppercase;
+  color: #000;
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+/*------------------- FIN ESTILOS NUEVO HOME TOTTO */

@@ -1,0 +1,74 @@
+/*------------------- GENERALES */
+
+body, body *{
+	margin: 0;
+	padding: 0;
+	-webkit-box-sizing: boder-box;
+	-moz-box-sizing: boder-box;
+	list-style: none;
+}
+
+/*------------------- FIN GENERALES */
+
+
+/*------------------- ESTILOS NUEVO HOME TOTTO */
+
+.infoBasica{
+	width: 100%;
+	height: auto;
+	background: #eee;
+	float: left;
+}
+
+	.infoBasica .wrap_infoBasica{
+		width: 990px;
+		margin: 0 auto;
+		height: auto;
+		position: relative;
+		font-family: 'arial';
+		font-size: 12px;
+		padding: 0px 10px;
+	}
+
+		.infoBasica .wrap_infoBasica ul{
+			float: left;
+			position: relative;
+			margin-right: 30px;
+			padding: 10px;
+		}
+
+			.wrap_infoBasica ul.telefono{
+				text-transform: uppercase;
+			}
+
+			.infoBasica .wrap_infoBasica ul li{
+				float: left;
+				margin-right: 10px;
+			}
+
+				.infoBasica .wrap_infoBasica ul li span{
+					float: left;
+					margin-right: 10px;
+				}
+
+/*------------------- FIN ESTILOS NUEVO HOME TOTTO */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
